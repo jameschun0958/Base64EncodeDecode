@@ -1,11 +1,12 @@
 const nextConfig = {
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/Base64EncodeDecode' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Base64EncodeDecode' : '',
+  basePath: '/Base64EncodeDecode',
+  assetPrefix: './Base64EncodeDecode',
   images: {
     unoptimized: true,
   },
   trailingSlash: true,
+  distDir: 'build',
 };
 
 module.exports = nextConfig;
