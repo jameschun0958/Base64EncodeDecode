@@ -3,10 +3,10 @@
   "homepage": "https://jameschun0958.github.io/Base64EncodeDecode",
   "version": "1.0.0",
   "description": "A Base64 encoder and decoder web application",
-  "main": "index.js",
+  "main": "index.js",  
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "deploy": "echo.> build/.nojekyll && gh-pages -d build --dotfiles",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -14,7 +14,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "Apache-2.0",  "dependencies": {
+  "license": "Apache-2.0",  
+  "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^7.0.1",
