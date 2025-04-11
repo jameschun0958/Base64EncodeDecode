@@ -1,0 +1,51 @@
+export default {
+  translation: {
+    appTitle: "Base64 인코더/디코더",
+    appDescription: "Base64 데이터를 인코딩 및 디코딩하기 위한 가볍고 안전한 도구",
+    encodeMode: "Base64로 인코딩",
+    decodeMode: "Base64에서 디코딩",
+    encodeDescription: "일반 텍스트를 Base64 형식으로 변환합니다",
+    decodeDescription: "Base64로 인코딩된 데이터를 일반 텍스트로 변환합니다",
+    advancedOptions: "고급 옵션",
+    textToEncode: "인코딩할 텍스트:",
+    base64ToDecode: "디코딩할 Base64:",
+    inputPlaceholder: {
+      encode: "인코딩할 텍스트 입력...",
+      decode: "디코딩할 Base64 입력..."
+    },
+    outputPlaceholder: {
+      encode: "Base64 출력이 여기에 표시됩니다...",
+      decode: "디코딩된 텍스트가 여기에 표시됩니다..."
+    },
+    base64Result: "Base64 결과:",
+    decodedText: "디코딩된 텍스트:",
+    chars: "문자",
+    urlSafe: "URL 안전",
+    urlSafeTooltip: "+ 를 - 로, / 를 _ 로 대체하여 Base64를 URL에 안전하게 만듭니다",
+    removePadding: "패딩 제거 (=)",
+    removePaddingTooltip: "일부 시스템에서는 URL의 패딩 문자를 제대로 처리하지 못합니다",
+    charEncoding: "문자 인코딩",
+    encodingInputText: "입력 텍스트의 인코딩",
+    encodingOutputText: "디코딩된 출력에 사용할 인코딩",
+    addLineBreaks: "줄 바꿈 추가",
+    charsPerLine: "줄당 문자 수",
+    rfcRecommendation: "RFC 2045는 줄당 76자를 권장합니다",
+    uploadFile: "파일 업로드",
+    clear: "지우기",
+    copy: "복사",
+    download: "다운로드",
+    copyToClipboard: "클립보드에 복사",
+    downloadAsFile: "파일로 다운로드",
+    invalidBase64: "잘못된 Base64 입력입니다. 입력 문자열을 확인하세요",
+    copiedToClipboard: "클립보드에 복사되었습니다!",
+    failedToCopy: "클립보드에 복사하지 못했습니다",
+    language: "언어",
+    switchToLightMode: "라이트 모드로 전환",
+    switchToDarkMode: "다크 모드로 전환",
+    switchToEncodeMode: "인코딩 모드로 전환",
+    switchToDecodeMode: "디코딩 모드로 전환",
+    clientSideProcessing: "모든 데이터는 브라우저에서 로컬로 처리됩니다. 어떤 데이터도 서버로 전송되지 않습니다.",
+    viewSourceOnGitHub: "GitHub에서 소스 보기",
+    footer: "© 2025 Base64 인코더/디코더. 모든 권리 보유."
+  }
+};

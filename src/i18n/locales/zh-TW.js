@@ -1,0 +1,51 @@
+export default {
+  translation: {
+    appTitle: "Base64 編碼器/解碼器",
+    appDescription: "一款輕量且安全的 Base64 資料編碼和解碼工具",
+    encodeMode: "編碼為 Base64",
+    decodeMode: "從 Base64 解碼",
+    encodeDescription: "將純文本轉換為 Base64 格式",
+    decodeDescription: "將 Base64 編碼的數據轉換為純文本",
+    advancedOptions: "進階選項",
+    textToEncode: "要編碼的文字：",
+    base64ToDecode: "要解碼的 Base64：",
+    inputPlaceholder: {
+      encode: "輸入要編碼的文字...",
+      decode: "輸入要解碼的 Base64..."
+    },
+    outputPlaceholder: {
+      encode: "Base64 輸出將顯示在此處...",
+      decode: "解碼的文字將顯示在此處..."
+    },
+    base64Result: "Base64 結果：",
+    decodedText: "解碼的文字：",
+    chars: "字元",
+    urlSafe: "URL 安全",
+    urlSafeTooltip: "通過將 + 替換為 - 和 / 替換為 _ 來使 Base64 在 URL 中安全",
+    removePadding: "移除填充 (=)",
+    removePaddingTooltip: "某些系統在 URL 中不能很好地處理填充字符",
+    charEncoding: "字元編碼",
+    encodingInputText: "輸入文字的編碼",
+    encodingOutputText: "用於解碼輸出的編碼",
+    addLineBreaks: "添加換行",
+    charsPerLine: "每行字元數",
+    rfcRecommendation: "RFC 2045 建議每行 76 個字符",
+    uploadFile: "上傳檔案",
+    clear: "清除",
+    copy: "複製",
+    download: "下載",
+    copyToClipboard: "複製到剪貼簿",
+    downloadAsFile: "下載為檔案",
+    invalidBase64: "無效的 Base64 輸入。請檢查您的輸入字串",
+    copiedToClipboard: "已複製到剪貼簿！",
+    failedToCopy: "複製到剪貼簿失敗",
+    language: "語言",
+    switchToLightMode: "切換至亮色模式",
+    switchToDarkMode: "切換至暗色模式",
+    switchToEncodeMode: "切換至編碼模式",
+    switchToDecodeMode: "切換至解碼模式",
+    clientSideProcessing: "所有數據都在您的瀏覽器中本地處理。不會將任何數據發送到伺服器。",
+    viewSourceOnGitHub: "在 GitHub 上查看原始碼",
+    footer: "© 2025 Base64 編碼器/解碼器。保留所有權利。"
+  }
+};

@@ -1,0 +1,35 @@
+{
+  "name": "base64encodedecode",
+  "homepage": "https://jameschun0958.github.io/Base64EncodeDecode",
+  "version": "1.0.0",
+  "description": "A Base64 encoder and decoder web application",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.1",
+    "@mui/material": "^7.0.1",
+    "base64encodedecode": "file:",
+    "framer-motion": "^12.6.3",
+    "i18next": "^24.2.3",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "^15.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

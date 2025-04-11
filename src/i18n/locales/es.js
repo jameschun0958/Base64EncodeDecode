@@ -1,0 +1,51 @@
+export default {
+  translation: {
+    appTitle: "Codificador/Decodificador Base64",
+    appDescription: "Una herramienta ligera y segura para codificar y decodificar datos Base64",
+    encodeMode: "Codificar a Base64",
+    decodeMode: "Decodificar de Base64",
+    encodeDescription: "Convierte texto normal a formato Base64",
+    decodeDescription: "Convierte datos codificados en Base64 de vuelta a texto",
+    advancedOptions: "Opciones Avanzadas",
+    textToEncode: "Texto para codificar:",
+    base64ToDecode: "Base64 para decodificar:",
+    inputPlaceholder: {
+      encode: "Introduce texto para codificar...",
+      decode: "Introduce Base64 para decodificar..."
+    },
+    outputPlaceholder: {
+      encode: "El resultado en Base64 aparecerá aquí...",
+      decode: "El texto decodificado aparecerá aquí..."
+    },
+    base64Result: "Resultado Base64:",
+    decodedText: "Texto Decodificado:",
+    chars: "caracteres",
+    urlSafe: "Compatible con URL",
+    urlSafeTooltip: "Hace que Base64 sea seguro para URLs reemplazando + con - y / con _",
+    removePadding: "Quitar relleno (=)",
+    removePaddingTooltip: "Algunos sistemas no manejan bien los caracteres de relleno en URLs",
+    charEncoding: "Codificación de Caracteres",
+    encodingInputText: "Codificación del texto de entrada",
+    encodingOutputText: "Codificación a usar para la salida decodificada",
+    addLineBreaks: "Añadir saltos de línea",
+    charsPerLine: "Caracteres por línea",
+    rfcRecommendation: "RFC 2045 recomienda 76 caracteres por línea",
+    uploadFile: "Subir Archivo",
+    clear: "Limpiar",
+    copy: "Copiar",
+    download: "Descargar",
+    copyToClipboard: "Copiar al portapapeles",
+    downloadAsFile: "Descargar como archivo",
+    invalidBase64: "Entrada Base64 inválida. Por favor revisa tu texto",
+    copiedToClipboard: "¡Copiado al portapapeles!",
+    failedToCopy: "Error al copiar al portapapeles",
+    language: "Idioma",
+    switchToLightMode: "Cambiar a modo claro",
+    switchToDarkMode: "Cambiar a modo oscuro",
+    switchToEncodeMode: "Cambiar a modo de codificación",
+    switchToDecodeMode: "Cambiar a modo de decodificación",
+    clientSideProcessing: "Todos los datos se procesan localmente en tu navegador. No se envían datos a ningún servidor.",
+    viewSourceOnGitHub: "Ver código en GitHub",
+    footer: "© 2025 Codificador/Decodificador Base64. Todos los derechos reservados."
+  }
+};

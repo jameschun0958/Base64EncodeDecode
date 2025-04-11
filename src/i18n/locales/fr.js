@@ -1,0 +1,51 @@
+export default {
+  translation: {
+    appTitle: "Encodeur/Décodeur Base64",
+    appDescription: "Un outil léger et sécurisé pour encoder et décoder des données Base64",
+    encodeMode: "Encoder en Base64",
+    decodeMode: "Décoder du Base64",
+    encodeDescription: "Convertit du texte en format Base64",
+    decodeDescription: "Convertit des données encodées en Base64 en texte brut",
+    advancedOptions: "Options Avancées",
+    textToEncode: "Texte à encoder :",
+    base64ToDecode: "Base64 à décoder :",
+    inputPlaceholder: {
+      encode: "Entrez le texte à encoder...",
+      decode: "Entrez le Base64 à décoder..."
+    },
+    outputPlaceholder: {
+      encode: "Le résultat en Base64 apparaîtra ici...",
+      decode: "Le texte décodé apparaîtra ici..."
+    },
+    base64Result: "Résultat Base64 :",
+    decodedText: "Texte Décodé :",
+    chars: "caractères",
+    urlSafe: "Compatible URL",
+    urlSafeTooltip: "Rend Base64 sûr pour les URLs en remplaçant + par - et / par _",
+    removePadding: "Supprimer le remplissage (=)",
+    removePaddingTooltip: "Certains systèmes ne gèrent pas bien les caractères de remplissage dans les URLs",
+    charEncoding: "Encodage de Caractères",
+    encodingInputText: "Encodage du texte d'entrée",
+    encodingOutputText: "Encodage à utiliser pour la sortie décodée",
+    addLineBreaks: "Ajouter des sauts de ligne",
+    charsPerLine: "Caractères par ligne",
+    rfcRecommendation: "RFC 2045 recommande 76 caractères par ligne",
+    uploadFile: "Télécharger un Fichier",
+    clear: "Effacer",
+    copy: "Copier",
+    download: "Télécharger",
+    copyToClipboard: "Copier dans le presse-papiers",
+    downloadAsFile: "Télécharger comme fichier",
+    invalidBase64: "Entrée Base64 invalide. Veuillez vérifier votre texte",
+    copiedToClipboard: "Copié dans le presse-papiers !",
+    failedToCopy: "Échec de la copie dans le presse-papiers",
+    language: "Langue",
+    switchToLightMode: "Passer au mode clair",
+    switchToDarkMode: "Passer au mode sombre",
+    switchToEncodeMode: "Passer au mode d'encodage",
+    switchToDecodeMode: "Passer au mode de décodage",
+    clientSideProcessing: "Toutes les données sont traitées localement dans votre navigateur. Aucune donnée n'est envoyée à un serveur.",
+    viewSourceOnGitHub: "Voir le code sur GitHub",
+    footer: "© 2025 Encodeur/Décodeur Base64. Tous droits réservés."
+  }
+};

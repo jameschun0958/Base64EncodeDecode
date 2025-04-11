@@ -1,0 +1,51 @@
+export default {
+  translation: {
+    appTitle: "Base64 Encoder/Decoder",
+    appDescription: "A lightweight, secure tool for encoding and decoding Base64 data",
+    encodeMode: "Encode to Base64",
+    decodeMode: "Decode from Base64",
+    encodeDescription: "Converts plain text to Base64 format",
+    decodeDescription: "Converts Base64 encoded data back to plain text",
+    advancedOptions: "Advanced Options",
+    textToEncode: "Text to Encode:",
+    base64ToDecode: "Base64 to Decode:",
+    inputPlaceholder: {
+      encode: "Enter text to encode...",
+      decode: "Enter Base64 to decode..."
+    },
+    outputPlaceholder: {
+      encode: "Base64 output will appear here...",
+      decode: "Decoded text will appear here..."
+    },
+    base64Result: "Base64 Result:",
+    decodedText: "Decoded Text:",
+    chars: "chars",
+    urlSafe: "URL-safe",
+    urlSafeTooltip: "Make Base64 safe for URLs by replacing + with - and / with _",
+    removePadding: "Remove padding (=)",
+    removePaddingTooltip: "Some systems don't handle padding characters well in URLs",
+    charEncoding: "Character Encoding",
+    encodingInputText: "Encoding of input text",
+    encodingOutputText: "Encoding to use for decoded output",
+    addLineBreaks: "Add line breaks",
+    charsPerLine: "Characters per line",
+    rfcRecommendation: "RFC 2045 recommends 76 characters per line",
+    uploadFile: "Upload File",
+    clear: "Clear",
+    copy: "Copy",
+    download: "Download",
+    copyToClipboard: "Copy to clipboard",
+    downloadAsFile: "Download as file",
+    invalidBase64: "Invalid Base64 input. Please check your input string",
+    copiedToClipboard: "Copied to clipboard!",
+    failedToCopy: "Failed to copy to clipboard",
+    language: "Language",
+    switchToLightMode: "Switch to light mode",
+    switchToDarkMode: "Switch to dark mode",
+    switchToEncodeMode: "Switch to encode mode",
+    switchToDecodeMode: "Switch to decode mode",
+    clientSideProcessing: "All data is processed locally in your browser. No data is sent to a server.",
+    viewSourceOnGitHub: "View source on GitHub",
+    footer: "© 2025 Base64 Encoder/Decoder. All rights reserved."
+  }
+};
